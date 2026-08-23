@@ -192,7 +192,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/
   end    
 })
 
-SetTab:AddButton({
+TechTab:AddButton({
 	Name = "Madara Assister GUI",
 	Callback = function()
 
