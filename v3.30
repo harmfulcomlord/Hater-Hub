@@ -1,0 +1,224 @@
+if game.PlaceId == 10449761463 then
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/jensonhirst/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Hater Hub | The Strongest Battlegrounds", HidePremium = false, IntroText = "Hater Hub", SaveConfig = true, ConfigFolder = "HaterConfig"})
+local IntroIcon = "rbxassetid://131129998"
+local Icon = "rbxassetid://131129998"
+
+
+OrionLib:MakeNotification({
+	Name = "NOTIFACATION",
+	Content = "Have Fun!",
+	Image = "rbxassetid://131129998",
+	Time = 5
+})
+
+
+local InfoTab = Window:MakeTab({
+Name = "Info",
+Icon = "rbxassetid://131129998",
+PremiumOnly = false
+})
+
+InfoTab:AddParagraph("information","This scripthub was made by H8ters (DizzyHax). i had a really incredible time making this scipthub, you can find great movesets and universal scripts here. It will get updates often, so i hope you like it!")
+
+local MoveTab = Window:MakeTab({
+Name = "Movesets",
+Icon = "rbxassetid://131129998",
+PremiumOnly = false
+})
+
+MoveTab:AddButton({
+Name = "JIREN(garou)",
+Callback = function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/bbmm44/Jiren/refs/heads/main/Final%20Version"))()
+      print("Jiren Activated")
+  end    
+})
+
+MoveTab:AddButton({
+Name = "CosmicGarou(garou)",
+Callback = function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/bbmm44/Cosmic/refs/heads/main/Garou"))()
+      print("Cosmic Form Aquired")
+  end    
+})
+
+MoveTab:AddButton({
+Name = "INVINCIBLE(saitama)",
+Callback = function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/bbmm44/Dont-Forget/refs/heads/main/Im%20Invincible"))()
+      print("Dont Forget, im.. invincible")
+  end    
+})
+
+MoveTab:AddButton({
+Name = "CID(saitama)",
+Callback = function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/bbmm44/CID-TSB/refs/heads/main/Lua"))()
+      print("I Am Atomic")
+  end    
+})
+
+MoveTab:AddButton({
+Name = "Arcauras(garou)",
+Callback = function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/bbmm44/Arcaura-garou-/refs/heads/main/script"))()
+      print("Activated")
+  end    
+})
+
+MoveTab:AddButton({
+Name = "Dio(garou)",
+Callback = function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/bbmm44/Dio-moveset-TSB/refs/heads/main/script"))()
+      print("Dio Selected")
+  end    
+})
+
+MoveTab:AddButton({
+Name = "Dark lord(Blade Master)",
+Callback = function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/bbmm44/Dark-Lord/refs/heads/main/moveset"))()
+      print("Sans Selected")
+  end    
+})
+
+
+local FreeTab = Window:MakeTab({
+Name = "Free Stuff",
+Icon = "rbxassetid://7625033282",
+PremiumOnly = false
+})
+
+FreeTab:AddButton({
+Name = "Free GokuMUI(emote)",
+Callback = function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/bbmm44/GOKU-for-FREE/refs/heads/main/Final%20Version"))()
+      print("MUI Activated")
+  end    
+})
+
+FreeTab:AddButton({
+Name = "Free Emotes",
+Callback = function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/bbmm44/free-emotes/refs/heads/main/UnreleasedAndLimited"))()
+      print("Activated")
+  end    
+})
+
+local UniTab = Window:MakeTab({
+Name = "Universal Scripts",
+Icon = "rbxassetid://131129998",
+PremiumOnly = false
+})
+
+UniTab:AddButton({
+Name = "Fly GUI",
+Callback = function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/bbmm44/fly-gui/refs/heads/main/basic"))()
+      print("Activated")
+  end    
+})
+
+UniTab:AddButton({
+Name = "godmode(may not work)",
+Callback = function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/bbmm44/god-mode/refs/heads/main/universal"))()
+      print("Activated")
+  end    
+})
+
+
+UniTab:AddButton({
+Name = "Infinite Yield",
+Callback = function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+      print("Activated")
+  end    
+})
+
+local SetTab = Window:MakeTab({
+Name = "Settings",
+Icon = "rbxassetid://4483345998",
+PremiumOnly = false
+})
+
+SetTab:AddButton({
+Name = "Auto block/Black flash",
+Callback = function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/bbmm44/Auto-Block/refs/heads/main/FinalVersion"))()
+      print("Black-Flash 'Em")
+  end    
+})
+
+SetTab:AddButton({
+	Name = "Auto Kyoto",
+	Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/bbmm44/auto-Kyoto/refs/heads/main/V2"))()
+      		print("Activated")
+  	end    
+})
+
+SetTab:AddButton({
+	Name = "auto combo",
+	Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/bbmm44/auto-combo/refs/heads/main/version"))()
+      		print("Activated")
+  	end    
+})
+
+SetTab:AddButton({
+Name = "Hater HBE(Hitbox Expander)",
+Callback = function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/Perfixt/Hater-HBE/refs/heads/main/HaterHBEfinal"))()
+      print("Hunt Them Down")
+  end    
+})
+
+SetTab:AddButton({
+	Name = "ESP",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/bbmm44/ESP/refs/heads/main/v1"))()
+      		print("Activated")
+  	end    
+})
+
+SetTab:AddButton({
+	Name = "Inf Jump/fly",
+	Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/bbmm44/settings1/refs/heads/main/FlyInfJump"))()
+      		print("Activated")
+  	end    
+})
+
+MoveTab:AddButton({
+Name = "A Train (Hero Hunter)",
+Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/ATrainSounds/refs/heads/main/ATrain.lua"))()
+      print("Cant Stop The A Train Baby")
+  end    
+})
+
+SetTab:AddButton({
+	Name = "side dash assist",
+	Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/mirakun938/side-dash-assist-test/refs/heads/main/sidedashtest.lua"))()
+      		print("Activated")
+  	end    
+})
+
+MoveTab:AddButton({
+Name = "Reflex Tech (Saitama)",
+Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Cyborg883/ReflexTech/refs/heads/main/Protected_7459802026542834.lua"))()
+      print("humans can change themselfs 🔥")
+  end    
+})
+
+
+
+end
+OrionLib:Init()
