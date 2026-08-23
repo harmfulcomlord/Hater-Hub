@@ -200,7 +200,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/
   end    
 })
 
-SetTab:AddButton({
+TechTab:AddButton({
 	Name = "side dash assist",
 	Callback = function()
 
@@ -209,7 +209,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/mirakun938/side-dash-
   	end    
 })
 
-MoveTab:AddButton({
+TechTab:AddButton({
 Name = "Reflex Tech (Saitama)",
 Callback = function()
 
@@ -225,6 +225,12 @@ FreeTab:AddButton({
 loadstring(game:HttpGet("https://raw.githubusercontent.com/harmfulcomlord/Emotes-v2/refs/heads/main/Unlock%20all"))()
       		print("Activated")
   	end    
+})
+
+local TechTab = Window:MakeTab({
+Name = "Techs",
+Icon = "rbxassetid://131129998",
+PremiumOnly = false
 })
 
 
