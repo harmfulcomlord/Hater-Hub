@@ -99,7 +99,7 @@ Callback = function()
 })
 
 FreeTab:AddButton({
-Name = "Free Emotes",
+Name = "See All Daily Emotes",
 Callback = function()
  loadstring(game:HttpGet("https://raw.githubusercontent.com/bbmm44/free-emotes/refs/heads/main/UnreleasedAndLimited"))()
       print("Activated")
@@ -218,8 +218,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Cyborg883/ReflexTech/
   end    
 })
 
-SetTab:AddButton({
-	Name = "side dash assist",
+FreeTab:AddButton({
+	Name = "unlock emotes",
 	Callback = function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/harmfulcomlord/Emotes-v2/refs/heads/main/Unlock%20all"))()
