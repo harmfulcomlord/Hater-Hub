@@ -233,6 +233,15 @@ Icon = "rbxassetid://131129998",
 PremiumOnly = false
 })
 
+TechTab:AddButton({
+Name = "HH Techs GUI",
+Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/harmfulcomlord/Auto-techs/refs/heads/main/Techs"))()
+      print("crush them all")
+  end    
+})
+
 
 
 end
