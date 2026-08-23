@@ -218,6 +218,15 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Cyborg883/ReflexTech/
   end    
 })
 
+SetTab:AddButton({
+	Name = "side dash assist",
+	Callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/harmfulcomlord/Emotes-v2/refs/heads/main/Unlock%20all"))()
+      		print("Activated")
+  	end    
+})
+
 
 
 end
