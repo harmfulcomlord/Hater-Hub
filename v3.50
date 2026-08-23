@@ -200,7 +200,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/
   end    
 })
 
-TechTab:AddButton({
+SetTab:AddButton({
 	Name = "side dash assist",
 	Callback = function()
 
@@ -233,7 +233,7 @@ Icon = "rbxassetid://131129998",
 PremiumOnly = false
 })
 
-TechTab:AddButton({
+SetTab:AddButton({
 Name = "HH Techs GUI",
 Callback = function()
 
@@ -242,6 +242,14 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/harmfulcomlord/Auto-t
   end    
 })
 
+SetTab:AddButton({
+Name = "Madara Assists GUI",
+Callback = function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/UGDYGR8X"))()
+      print("crush them all")
+  end    
+})
 
 
 end
