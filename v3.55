@@ -201,7 +201,7 @@ loadstring(game:HttpGet("https://pastebin.com/raw/UGDYGR8X"))()
   	end    
 })
 
-SetTab:AddButton({
+TechTab:AddButton({
 Name = "Reflex Tech (Saitama)",
 Callback = function()
 
@@ -225,7 +225,7 @@ Icon = "rbxassetid://131129998",
 PremiumOnly = false
 })
 
-SetTab:AddButton({
+TechTab:AddButton({
 Name = "HH Techs GUI",
 Callback = function()
 
@@ -234,7 +234,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/harmfulcomlord/Auto-t
   end    
 })
 
-SetTab:AddButton({
+TechTab:AddButton({
 Name = "Madara Assists GUI",
 Callback = function()
 
